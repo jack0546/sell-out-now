@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NII BOARD | Bags & Shoes</title>
+  <meta name="description" content="Handbags, bag sets and heels. Tap Order and we reply on WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#top" class="logo">NII BOARD</a>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#how">How to order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>NII BOARD</h1>
+        <p class="tagline">Handbags, bag sets and heels for every outing.</p>
+        <a href="#shop" class="btn btn-gold">Shop now</a>
+      </div>
+      <div class="hero-images" aria-hidden="true">
+        <img src="images/bag-set.jpg" alt="">
+        <img src="images/heels-blue.png" alt="">
+        <img src="images/bag-check.png" alt="">
+      </div>
+    </section>
+
+    <section class="shop" id="shop">
+      <div class="section-head">
+        <h2>Our collection</h2>
+        <div class="filters" role="group" aria-label="Filter products">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="bags">Bags</button>
+          <button class="filter" data-filter="shoes">Shoes</button>
+        </div>
+      </div>
+      <div class="grid" id="product-grid"></div>
+    </section>
+
+    <section class="how" id="how">
+      <h2>How to order</h2>
+      <ol>
+        <li>Pick the item you like and tap <strong>Order on WhatsApp</strong>.</li>
+        <li>WhatsApp opens with the product name and price already typed.</li>
+        <li>Send the message and we confirm size, colour and delivery with you.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div>
+      <p class="logo">NII BOARD</p>
+      <p>Call or WhatsApp: <a href="https://wa.me/233532340875">0532340875</a></p>
+    </div>
+    <p class="copy">&copy; <span id="year"></span> NII BOARD. All rights reserved.</p>
+  </footer>
+
+  <a class="wa-float" id="wa-float" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.5c0 2.4.7 4.7 1.9 6.6L3 29l7.1-2.1a13 13 0 0 0 5.9 1.4c7 0 12.7-5.6 12.7-12.5S23 3 16 3zm0 23a10.700 10.700 0 0 1-5.500-1.500l-.4-.2-4.200 1.200 1.300-4-.3-.4A10.300 10.300 0 0 1 5.600 15.500C5.600 9.800 10.300 5.200 16 5.200s10.400 4.600 10.400 10.300S21.700 26 16 26zm5.800-7.700c-.3-.2-1.900-.9-2.200-1s-.5-.2-.7.200-.8 1-1 1.200-.4.200-.7.100a8.700 8.700 0 0 1-4.300-3.700c-.3-.6.300-.5.900-1.700.1-.2 0-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6a1.200 1.200 0 0 0-.9.400 3.700 3.700 0 0 0-1.100 2.700c0 1.600 1.200 3.200 1.300 3.400s2.300 3.500 5.600 4.900c2 .9 2.800.9 3.800.8.600-.1 1.900-.8 2.200-1.600s.3-1.400.2-1.500-.3-.2-.6-.4z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
