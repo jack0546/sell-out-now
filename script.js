@@ -4,19 +4,25 @@ const CURRENCY = "GH₵";
 
 // Edit names, descriptions and prices here
 const products = [
-  { id: 1, name: "3-Piece Bag Set (Wine Red)", category: "bags", price: 280, image: "images/bag-set.jpg",
+  { id: 1, name: "3-Piece Bag Set (Wine Red)", category: "bags", price: 280, image: "bags/g13.png",
     desc: "Tote, crossbody and clutch with gold tassel." },
-  { id: 2, name: "Structured Top-Handle Bag (Maroon)", category: "bags", price: 220, image: "images/bag-maroon.png",
+  { id: 2, name: "Structured Top-Handle Bag (Maroon)", category: "shoes", price: 220, image: "foot/a16.png",
     desc: "Smooth finish with a gold bar clasp." },
-  { id: 3, name: "Pointed Heels with Gold Emblem", category: "shoes", price: 180, image: "images/heels-classic.png",
+  { id: 3, name: "Pointed Heels with Gold Emblem", category: "shoes", price: 180, image: "foot/f7.png",
     desc: "Available in green, black and burgundy." },
-  { id: 4, name: "Blue Crystal Heels and Clutch Set", category: "shoes", price: 350, image: "images/heels-blue.png",
+  { id: 4, name: "Blue Crystal Heels and Clutch Set", category: "bags", price: 350, image: "bags/bag_5.jpg",
     desc: "Sparkling buckle heels with a matching clutch." },
-  { id: 5, name: "Crystal Mini Bag", category: "bags", price: 150, image: "images/bag-crystal.png",
+  { id: 5, name: "Crystal Mini Bag", category: "bags", price: 150, image: "bags/bag_4.jpg",
     desc: "Shimmering mini bag in silver, gold and black." },
-  { id: 6, name: "Classic Check Handbag", category: "bags", price: 260, image: "images/bag-check.png",
+  { id: 6, name: "Classic Check Handbag", category: "bags", price: 260, image: "bags/bag_1.jpg",
     desc: "Check print with tan handles and gold details.", position: "70% 50%" },
-  { id: 7, name: "Blush Pink Crossbody Bag", category: "bags", price: 200, image: "images/bag-pink.jpg",
+  { id: 7, name: "Blush Pink Crossbody Bag", category: "bags", price: 200, image: "bags/bag_2.jpg",
+    desc: "Top handles plus a detachable shoulder strap." },
+  { id: 8, name: "Blush Pink Crossbody Bag", category: "shoes", price: 200, image: "foot/a5.png",
+    desc: "Top handles plus a detachable shoulder strap." },
+  { id: 9, name: "Blush Pink Crossbody Bag", category: "bags", price: 200, image: "bags/g9.png",
+    desc: "Top handles plus a detachable shoulder strap." },
+  { id: 10, name: "Blush Pink Crossbody Bag", category: "shoes", price: 200, image: "foot/w_10.jpg",
     desc: "Top handles plus a detachable shoulder strap." }
 ];
 
@@ -83,3 +89,12 @@ document.getElementById("wa-float").href =
 document.getElementById("year").textContent = new Date().getFullYear();
 
 render();
+
+
+
+
+
+
+
+
+
